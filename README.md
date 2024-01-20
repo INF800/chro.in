@@ -5,3 +5,4 @@ Page to test hostinger service without SSL and check if adding 3rd party SLL cer
 **Steps:** 
 
 - Host gh page @ https://inf800.github.io/chroin
+- Create `CNAME` file with `www.chro.in`
