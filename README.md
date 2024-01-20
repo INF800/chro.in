@@ -16,3 +16,6 @@ Page to test hostinger service without SSL and check if adding 3rd party SLL cer
 
   Now, chro.in will contain the contents deployed at https://inf800.github.io/chro.in.
   
+
+> #### References
+> - https://dev.to/vjnvisakh/hosting-a-custom-domain-on-github-2d1a
