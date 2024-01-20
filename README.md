@@ -13,5 +13,6 @@ Page to test hostinger service without SSL and check if adding 3rd party SLL cer
   |A|@|185.199.109.153|14400|
   |A|@|185.199.110.153|14400|
   |A|@|185.199.111.153|14400|
+
   Now, chro.in will contain the contents deployed at https://inf800.github.io/chro.in.
   
