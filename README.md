@@ -6,7 +6,7 @@ Page to test hostinger service without SSL and check if adding 3rd party SLL cer
 
 - Host gh page @ https://inf800.github.io/chro.in
 - Create `CNAME` file with `www.chro.in`. (This will redirect all browsers to www.chro.in when https://inf800.github.io/chro.in is given in URL field)
-- Add the following in DNS / Nameservers: (Same can be done for other providers like godaddy etc.)
+- Add the following in DNS / Nameservers: (Same can be done for other providers like Godaddy etc.)
   | Type | Name | Content | TTL |
   | --- | --- | --- | --- |
   |A|@|185.199.108.153|14400|
@@ -33,7 +33,7 @@ Page to test hostinger service without SSL and check if adding 3rd party SLL cer
     > Replace your provider's nameservers with cloudfare's nameserver
 - Go to the "SSL/TLS" section.
 - Choose the SSL/TLS encryption mode to "Full" (Do not select the "Full (strict)" which will cause [526](https://developers.cloudflare.com/support/troubleshooting/cloudflare-errors/troubleshooting-cloudflare-5xx-errors/#error-526-invalid-ssl-certificate) with cloud fare).
-- Wait for a 24-48 Hrs, you should be able to see secure https connection @ https://www.chro.in/
+- Wait for about 1 - 48 Hrs, you should be able to see a secure HTTPS connection @ https://www.chro.in/
 
 
 > #### References
