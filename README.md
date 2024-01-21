@@ -6,7 +6,7 @@ Page to test hostinger service without SSL and check if adding 3rd party SLL cer
 
 - Host gh page @ https://inf800.github.io/chro.in
 - Create `CNAME` file with `www.chro.in`. (This will redirect all browsers to www.chro.in when https://inf800.github.io/chro.in is given in URL field)
-- Add the following in DNS / Nameservers: (Same can be done for other providers like Godaddy etc.)
+- Add the following in DNS: (Same can be done for other providers like Godaddy etc.)
   | Type | Name | Content | TTL |
   | --- | --- | --- | --- |
   |A|@|185.199.108.153|14400|
