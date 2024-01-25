@@ -33,7 +33,7 @@ Page to test hostinger service without SSL and check if adding 3rd party SLL cer
     > Replace your provider's nameservers with cloudfare's nameserver
 - Go to the "SSL/TLS" section.
 - Choose the SSL/TLS encryption mode to "Full" (Do not select the "Full (strict)" which will cause [526](https://developers.cloudflare.com/support/troubleshooting/cloudflare-errors/troubleshooting-cloudflare-5xx-errors/#error-526-invalid-ssl-certificate) with cloud fare).
-- Wait for about 1 - 48 Hrs, you should be able to see a secure HTTPS connection @ https://www.chro.in/
+- **Wait for about 1 - 48 Hrs, you should be able to see a secure HTTPS connection @ https://www.chro.in/**
 - To always use HTTPS, go to "SSL/TLS" -> "Edge Certificates" -> "Always Use HTTPS" -> Click on toggle button.
 
 > #### References
